@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url("../Assets/imgs/background.png");
+}
+
+
+.logo{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+    .logo:hover{
+        background-color: brown;
+        border-radius: 100px;
+    }
+
+.header-container{
+    color: white;
+    background-color: rgb(33, 37, 41);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    flex-wrap: wrap;
+}
+    .header{
+        width: 60%;
+        display: flex;
+        justify-content: right;
+        flex-wrap: wrap;
+    }
+        header nav a {
+            text-decoration: none;
+            color: aliceblue;
+            padding: 10px 20px;
+            font-size: 30px;
+            line-height: normal;
+            flex-wrap: wrap;
+        }
+            header nav a:hover{
+                background-color: brown;
+                border-radius: 100px;
+            }
+
+.titulo{
+    text-align: center;
+    padding-top: 10rem;
+    color: aliceblue;
+    font-size: 2rem;
+    line-height: normal;
+    text-decoration-style: dotted;
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+    .titulo2{
+        font-size: 4rem;
+    }
+        .subtitulo{
+            text-align: left;
+            color: aliceblue;
+            font-size: 2rem;
+            line-height: normal;
+            text-decoration-style: dotted;
+            font-family: cursive;
+            margin-bottom: 2rem;
+        }
+            .subtitulo2{
+                text-align: center;
+            }
+
+.titulo-img{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+    .titulo-img img{
+        display: flex;
+        width: 5rem;
+        height: 5rem;
+        
+    }
+        .titulo-img h2{
+            display: flex;
+            margin: 0%;
+            margin-left: 1rem;
+            font-family: none;
+        }
+
+    .parrafo{
+        color: aliceblue;
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        text-decoration: none;
+        }
+            .parrafo a{
+                text-decoration: none;
+                color: darkgrey;
+            }
+
+main{
+    padding-top: 2rem;
+    flex: 1 0 auto;
+}
+    .main-container{
+        display: flex;
+        justify-content: center;
+        }
+            .main-ayuda{
+                margin-left: 10rem;
+                margin-right: 10rem;
+            }
+                .main-index{
+                    margin-left: 15rem;
+                    margin-right: 15rem;
+                }
+
+
+.footer-container{
+    color: white;
+    background-color: rgb(33, 37, 41);
+    padding: 20px 0;
+    flex: 0 0 auto;
+}
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+            footer nav a{
+                
+                text-decoration: none;
+                color: aliceblue;
+                padding: 10px 20px;
+                font-size: 30px;
+                line-height: normal; 
+            }
+                footer nav a:hover{
+                background-color: brown;
+                border-radius: 100px;
+                    }
+                        .logo-foot{
+                            display: flex;
+                            justify-content: center;
+                            color: aliceblue;
+                            padding: 10px 20px;
+                            font-size: 30px;
+                            }
+
+.photo-grid-container{
+display: flex;
+justify-content: center;
+}
+    .photo-grid{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+            .photo-grid img{
+            border-color: aliceblue;
+            margin: 4rem;
+                }
+
+.juego-logo{
+    margin: 5rem;
+}
+    .juego-logo2{
+        margin: 5rem;
+        width: 256px;
+        height: 256px;
+    }
+
+.juego-logo-principal{
+    display: flex;
+    justify-content: center;
+}
+
+.mapa {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
