@@ -11,8 +11,8 @@ body{
     flex-direction: column;
     height: 100%;
     background-image: url("../Assets/imgs/background.png");
-    background-size: cover;
 }
+
 
 
 .logo{
@@ -329,8 +329,13 @@ justify-content: center;
                         background-color: #303130;
                     }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
     .titulo{
-        padding-top: 15rem;
+        padding-top: 18rem;
+        }
+}
+@media screen and (max-width: 450px) {
+    .titulo{
+        padding-top: 25rem;
         }
 }
