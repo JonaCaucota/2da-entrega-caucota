@@ -204,11 +204,14 @@ justify-content: center;
 .carrusel-juego{
         display: flex;
         justify-content: center;
+        padding-bottom: 4rem;
     }
     .carrusel-juego-tamanio{
     width: 600px;
     }
-
+    .carrusel-juego-tamanio-index{
+        width: 800px;
+        }
     
 .links{
     display: flex;
