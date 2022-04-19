@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>Tienda de Juegos</title>
 </head>
+
 <body class="body-container container">
     <header class="header-container container">
-            <h3 class="logo">Tienda de Juegos</h3>
-            <nav class="header">
+        <h3 class="logo">Tienda de Juegos</h3>
+        <nav class="header">
             <a href="index.html">Inicio</a>
             <a href="Pages/Categorias.html">Categorias</a>
             <a href="Pages/Ayuda.html">Ayuda</a>
             <a href="Pages/Nosotros.html">Nosotros</a>
-            </nav>
+        </nav>
     </header>
 
-    <div><h1 class="titulo">Bienvenido a la mejor Tienda de VideoJuegos</h1></div>
+    <div>
+        <h1 class="titulo">Bienvenido a la mejor Tienda de VideoJuegos</h1>
+    </div>
 
     <main class="main-index">
         <div class="titulo-img">
@@ -27,13 +32,72 @@
             <h2 class="subtitulo">Lo Nuevo</h2>
         </div>
 
-        <div class="photo-grid">
-            <nav>
-                <a href="Pages/Juego.html"><img src="../Assets/imgs/Steam.png" alt="" class="juego-logo"></a>
-                <a href="Pages/Juego.html"><img src="../Assets/imgs/Steam.png" alt="" class="juego-logo"></a>
-                <a href="Pages/Juego.html"><img src="../Assets/imgs/Steam.png" alt="" class="juego-logo"></a>
-            </nav>
-        </div>
+        <section class="carrusel-juego">
+            <div class="carrusel-juego-tamanio">
+                <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="../Assets/imgs/Steam.png" class="d-block w-100 " alt="...">
+                                </div>
+                                <div class="col">
+                                    <img src="../Assets/imgs/Steam.png" class="d-block w-100 " alt="...">
+                                </div>
+                                <div class="col">
+                                    <img src="../Assets/imgs/Steam.png" class="d-block w-100 " alt="...">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="../Assets/imgs/Steam.png" class="d-block w-100 " alt="...">
+                                </div>
+                                <div class="col">
+                                    <img src="../Assets/imgs/Steam.png" class="d-block w-100 " alt="...">
+                                </div>
+                                <div class="col">
+                                    <img src="../Assets/imgs/Steam.png" class="d-block w-100 " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="row">
+                                <div class="col">
+                                    <img src="../Assets/imgs/Steam.png" class="d-block w-100 " alt="...">
+                                </div>
+                                <div class="col">
+                                    <img src="../Assets/imgs/Steam.png" class="d-block w-100 " alt="...">
+                                </div>
+                                <div class="col">
+                                    <img src="../Assets/imgs/Steam.png" class="d-block w-100 " alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
 
 
 
@@ -58,18 +122,23 @@
         </div>
 
 
-        
+
 
 
     </main>
 
     <footer class="footer-container">
-            <h3 class="logo-foot">La Mejor Tienda</h3>
-            <nav class="footer">
-            <a href="https:www.facebook.com" target = "blank">Facebook</a>
+        <h3 class="logo-foot">La Mejor Tienda</h3>
+        <nav class="footer">
+            <a href="https:www.facebook.com" target="blank">Facebook</a>
             <a href="https:www.twitter.com" target="blank">Twitter</a>
             <a href="https:www.instagram.com" target="blank">Instagram</a>
-            </nav>
+        </nav>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 </body>
+
 </html>

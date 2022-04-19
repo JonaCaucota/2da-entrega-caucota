@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 html{
     height: 100%;
@@ -37,6 +37,7 @@ body{
     margin: 0 auto;
     flex-wrap: wrap;
     width: 100%;
+    z-index: 9999;
 }
     .header{
         width: 60%;
@@ -127,8 +128,8 @@ main{
                 margin-right: 10rem;
             }
                 .main-index{
-                    margin-left: 15rem;
-                    margin-right: 15rem;
+                    margin-left: 6rem;
+                    margin-right: 6rem;
                 }
 
 
@@ -173,11 +174,13 @@ justify-content: center;
     }
             .photo-grid img{
             border-color: aliceblue;
-            margin: 4rem;
+            margin: 25px;
                 }
 
 .juego-logo{
     margin: 5rem;
+    width: 200px;
+    height: 200px;
 }
     .juego-logo2{
         margin: 5rem;
@@ -185,10 +188,12 @@ justify-content: center;
         height: 256px;
     }
 
+
 .juego-logo-principal{
     display: flex;
     justify-content: center;
 }
+
 
 .mapa {
     display: flex;
@@ -196,7 +201,15 @@ justify-content: center;
     justify-content: center;
     margin-bottom: 4rem;
 }
+.carrusel-juego{
+        display: flex;
+        justify-content: center;
+    }
+    .carrusel-juego-tamanio{
+    width: 600px;
+    }
 
+    
 .links{
     display: flex;
     flex-wrap: wrap;
@@ -312,3 +325,9 @@ justify-content: center;
                     .form-linea button:active{
                         background-color: #303130;
                     }
+
+@media screen and (max-width: 767px) {
+    .titulo{
+        padding-top: 15rem;
+        }
+}
