@@ -1,0 +1,73 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: url("../Assets/imgs/background.png");
+}
+
+@import 'base/header';
+@import 'base/titulosylogos';
+@import 'base/footer';
+@import 'components/mediaQuery';
+
+.logo{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 30px;
+}
+    .logo:hover{
+        background-color: #c35831;
+        border-radius: 100px;
+        transition: 1s;
+    }
+
+    main{
+        padding-top: 2rem;
+        flex: 1 0 auto;
+    }
+        .main-container{
+            display: flex;
+            justify-content: center;
+            }
+                .main-ayuda{
+                    margin-left: 10rem;
+                    margin-right: 10rem;
+                }
+                    .main-index{
+                        margin-left: 6rem;
+                        margin-right: 6rem;
+                    }
+    
+                    .mapa {
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        margin-bottom: 4rem;
+                    }
+                    .carrusel-juego{
+                            display: flex;
+                            justify-content: center;
+                            padding-bottom: 4rem;
+                        }
+                        .carrusel-juego-tamanio{
+                        width: 600px;
+                        }
+                        .carrusel-juego-tamanio-index{
+                            width: 800px;
+                            }
+                            
+
+
+

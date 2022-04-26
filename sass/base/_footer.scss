@@ -1,0 +1,31 @@
+.footer-container{
+    color: white;
+    background-color: rgb(33, 37, 41);
+    padding: 20px 0;
+    flex: 0 0 auto;
+}                       
+.logo-foot{                        
+    display: flex;                          
+    justify-content: center;                         
+    color: aliceblue;
+    padding: 10px 20px;
+    font-size: 30px;                        
+}
+    .footer{
+        display: flex;
+        justify-content: center;
+    }
+            footer nav a{
+                text-decoration: none;
+                color: aliceblue;
+                padding: 10px 20px;
+                font-size: 30px;
+                line-height: normal; 
+            }
+                footer nav a:hover{
+                background-color: #c35831;
+                border-radius: 100px;
+                text-decoration: none;
+                color: aliceblue;
+                transition: 1s;
+                    }
