@@ -1,0 +1,41 @@
+@mixin titulo{
+    text-align: center;
+    padding-top: 10rem;
+    color: aliceblue;
+    font-size: 2rem;
+    line-height: normal;
+    text-decoration-style: dotted;
+    font-family: cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+@mixin titulo2{
+    font-size: 4rem;
+}
+
+@mixin subtitulo{
+    text-align: left;
+    color: aliceblue;
+    font-size: 2rem;
+    line-height: normal;
+    text-decoration-style: dotted;
+    font-family: cursive;
+    margin-bottom: 2rem;
+}
+
+@mixin tituloimg{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+}
